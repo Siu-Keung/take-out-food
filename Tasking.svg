@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 11.0, SVG Export, v1.0 生成 Tasking.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="9.15565in" height="10.3761in"
+		viewBox="0 0 659.206 747.081" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="2052" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#31b6fd;marker-end:url(#mrkr4-4);stroke:#165d83;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#165d83;fill-opacity:1;stroke:#165d83;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st3 {fill:#ffffff;font-family:Yu Gothic UI Semilight;font-size:0.499992em;font-weight:bold}
+		.st4 {font-size:1em;font-weight:normal}
+		.st5 {font-family:SimSun;font-size:1em;font-weight:normal}
+		.st6 {font-size:1em}
+		.st7 {font-family:Symbol;font-size:1em;font-weight:normal}
+		.st8 {font-family:SimSun;font-size:1em}
+		.st9 {fill:#ffffff;font-family:Yu Gothic UI Semilight;font-size:0.833336em;font-weight:bold}
+		.st10 {marker-end:url(#mrkr4-4);stroke:#165d83;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-4" class="st2" v:arrowType="4" v:arrowSize="2" v:setback="7.04" refX="-7.04" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="流程图" v:index="0"/>
+		<v:layer v:name="连接线" v:index="1"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" v:layerMember="0" transform="translate(262.989,-586.139)">
+			<title>流程</title>
+			<desc>1.generateOrder: 将字符串数组格式的输入转换为键值对形式。Eg[{id : num}, ...]。 Inp...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.1023622047244):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="706.687" width="141.74" height="80.7874"/>
+			<rect x="0" y="666.293" width="141.732" height="80.7874" class="st1"/>
+			<text x="2" y="673.69" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>1.generateOrder:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st4">将字符串数</tspan><tspan class="st5">组</tspan><tspan class="st4">格式的</tspan><tspan class="st5">输</tspan><tspan
+						class="st4">入</tspan><tspan class="st5">转换为键值对</tspan><tspan class="st4">形式</tspan><tspan class="st4">。</tspan><tspan
+						class="st4">Eg</tspan><tspan class="st4">：</tspan><tspan x="2" dy="1.225em" class="st4">[</tspan><tspan
+						class="st4">{</tspan><tspan class="st4">id </tspan><tspan class="st4">: </tspan><tspan class="st4">num</tspan><tspan
+						class="st4">}, </tspan><tspan class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan
+						x="2" dy="1.533em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="11.34"/></v:tabList><tspan
+						x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">orderStrArray</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">字符串</tspan><tspan class="st5">订单</tspan><tspan class="st4">的数</tspan><tspan
+						class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan
+						class="st4">[</tspan><tspan class="st4">str</tspan><tspan class="st4">1</tspan><tspan class="st4">, </tspan><tspan
+						x="20" dy="1.229em" class="st4">str</tspan><tspan class="st4">2</tspan><tspan class="st4">,</tspan><tspan
+						class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph v:spAfter="2"
+							v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan x="2"
+						dy="1.533em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph v:indentFirst="-18" v:indentLeft="18"
+						v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">idAndNumList</tspan><tspan class="st4">，</tspan><tspan class="st4">js</tspan><tspan
+						class="st5">对</tspan><tspan class="st4">象数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan
+						class="st4">12345</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">},</tspan><tspan
+						class="st4">...]</tspan><tspan class="st4">。</tspan></text>		</g>
+		<g id="shape2-66" v:mID="2" v:groupContext="shape" v:layerMember="0" transform="translate(262.989,-423.147)">
+			<title>流程.2</title>
+			<desc>2.loadDetails: 根据商品的id加载出其详细信息。 Input idAndNumList,js对象数组eg[{...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.1023622047244):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="705.978" width="141.74" height="82.2047"/>
+			<rect x="0" y="664.876" width="141.732" height="82.2047" class="st1"/>
+			<text x="2" y="672.28" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>2.loadDetails:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st4">根据商品的</tspan><tspan class="st4">id</tspan><tspan class="st4">加</tspan><tspan class="st5">载</tspan><tspan
+						class="st4">出其</tspan><tspan class="st5">详细</tspan><tspan class="st4">信息</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan
+						x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="11.34"/></v:tabList><tspan
+						x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">idAndNumList</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">，</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan
+						class="st4">象数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan
+						class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan class="st4">12345</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">},</tspan><tspan class="st4">...]</tspan><tspan
+						class="st4">。<v:newlineChar/><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+								v:pos="73.7"/></v:tabList></tspan><tspan x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2"
+						dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">goodsDetailsList</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">包含商品</tspan><tspan class="st5">详细</tspan><tspan class="st4">信息和</tspan><tspan
+						class="st5">购买</tspan><tspan class="st4">数量的</tspan><tspan x="20" dy="1.304em" class="st4">js</tspan><tspan
+						class="st5">对</tspan><tspan class="st4">象数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">price</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">.</tspan><tspan
+						class="st4">6</tspan><tspan class="st4">, </tspan><tspan class="st4">name</tspan><tspan class="st4">: </tspan><tspan
+						class="st4">黄</tspan><tspan x="20" dy="1.3em" class="st5">焖鸡</tspan><tspan class="st4">},</tspan><tspan
+						class="st4">...]</tspan><tspan class="st4">。</tspan></text>		</g>
+		<g id="shape3-136" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(262.989,-287.084)">
+			<title>流程.3</title>
+			<desc>3.getMaxDiscount: 获取当前订单中符合条件的最省线的优惠。 Input goodsDetailsList,...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.2992125984252):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="701.018" width="141.74" height="92.126"/>
+			<rect x="0" y="654.955" width="141.732" height="92.126" class="st1"/>
+			<text x="2" y="662.35" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>3.getMaxDiscount:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st5">获</tspan><tspan class="st4">取当前</tspan><tspan class="st5">订单</tspan><tspan class="st4">中符合条件的最省</tspan><tspan
+						class="st5">线</tspan><tspan class="st4">的</tspan><tspan class="st5">优</tspan><tspan class="st4">惠</tspan><tspan
+						class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="11.34"/></v:tabList><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">goodsDetailsList</tspan><tspan class="st4">,</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象数</tspan><tspan
+						class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan
+						class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan
+						x="20" dy="1.304em" class="st4">price</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan
+						class="st4">.</tspan><tspan class="st4">6</tspan><tspan class="st4">, </tspan><tspan class="st4">name</tspan><tspan
+						class="st4">: </tspan><tspan class="st4">黄</tspan><tspan class="st5">焖鸡</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">num</tspan><tspan class="st4">:</tspan><tspan class="st4">3</tspan><tspan class="st4">},</tspan><tspan
+						class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph v:spAfter="2"
+							v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan x="2"
+						dy="1.558em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph v:indentFirst="-18" v:indentLeft="18"
+						v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">maxDiscount</tspan><tspan class="st4">，</tspan><tspan class="st4">描述最大</tspan><tspan
+						class="st5">优</tspan><tspan class="st4">惠的</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan
+						class="st4">象</tspan><tspan class="st4">，</tspan><tspan class="st4">形如</tspan><tspan class="st4">：</tspan><tspan
+						x="20" dy="1.304em" class="st4">{</tspan><tspan class="st4">type</tspan><tspan class="st4">:</tspan><tspan
+						class="st4">”</tspan><tspan class="st5">满</tspan><tspan class="st4">30</tspan><tspan class="st4">减</tspan><tspan
+						class="st4">6</tspan><tspan class="st4">”</tspan><tspan class="st4">,</tspan><tspan class="st4">matchedItems</tspan><tspan
+						class="st4">:[</tspan><tspan class="st4">{</tspan><tspan class="st4">id</tspan><tspan class="st4">:</tspan><tspan
+						class="st4">123</tspan><tspan class="st4">, </tspan><tspan x="20" dy="1.3em" class="st4">price</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">.</tspan><tspan class="st4">6</tspan><tspan
+						class="st4">, </tspan><tspan class="st4">name</tspan><tspan class="st4">: </tspan><tspan class="st4">黄</tspan><tspan
+						class="st5">焖鸡</tspan><tspan class="st4">, </tspan><tspan class="st4">...</tspan><tspan class="st4">}</tspan><tspan
+						class="st4">]</tspan><tspan class="st4">, </tspan><tspan class="st4">savedMoney</tspan><tspan class="st4">: </tspan><tspan
+						class="st4">16</tspan><tspan class="st4">}</tspan></text>		</g>
+		<g id="shape4-238" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(262.989,-158.107)">
+			<title>流程.4</title>
+			<desc>4.getTotalPrice: 获取订单总价。 Input goodsDetailsListjs对象数组egeg[{id...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.0236220472441):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="708.104" width="141.74" height="77.9528"/>
+			<rect x="0" y="669.128" width="141.732" height="77.9528" class="st1"/>
+			<text x="2" y="676.53" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>4.getTotalPrice:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st5">获</tspan><tspan class="st4">取</tspan><tspan class="st5">订单总</tspan><tspan class="st4">价</tspan><tspan
+						class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="11.34"/></v:tabList><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">goodsDetailsList</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象数</tspan><tspan class="st5">组</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">eg</tspan><tspan
+						class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan class="st4">id</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan x="20" dy="1.304em"
+						class="st4">price</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">.</tspan><tspan
+						class="st4">6</tspan><tspan class="st4">, </tspan><tspan class="st4">name</tspan><tspan class="st4">: </tspan><tspan
+						class="st4">黄</tspan><tspan class="st5">焖鸡</tspan><tspan class="st4">},</tspan><tspan class="st4">...]</tspan><tspan
+						class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.645em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">maxDiscount</tspan><tspan class="st4">，</tspan><tspan class="st4">描述最大</tspan><tspan
+						class="st5">优</tspan><tspan class="st4">惠的</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan
+						class="st4">象</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+								v:pos="73.7"/></v:tabList></tspan><tspan x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2"
+						dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">totalPrice</tspan><tspan
+						class="st4">，</tspan><tspan class="st5">订单总</tspan><tspan class="st4">价</tspan><tspan class="st4">。</tspan></text>		</g>
+		<g id="shape5-300" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(509.603,-649.918)">
+			<title>流程.5</title>
+			<desc>1.1 getUniqueIdList: 获取所要购买的商品id列表。 Input orderStrArray,字符串订单...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.0236220472441):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="702.435" width="141.74" height="89.2913"/>
+			<rect x="0" y="657.789" width="141.732" height="89.2913" class="st1"/>
+			<text x="2" y="665.19" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>1.1 getUniqueIdList:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st5">获</tspan><tspan class="st4">取所要</tspan><tspan class="st5">购买</tspan><tspan class="st4">的商品</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">列表</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan x="2"
+						dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph v:indentFirst="-18" v:indentLeft="18"
+						v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="11.34"/></v:tabList><tspan
+						x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">orderStrArray</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">字符串</tspan><tspan class="st5">订单</tspan><tspan class="st4">的数</tspan><tspan
+						class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan
+						class="st4">[</tspan><tspan class="st4">str</tspan><tspan class="st4">1</tspan><tspan class="st4">, </tspan><tspan
+						x="20" dy="1.229em" class="st4">str</tspan><tspan class="st4">2</tspan><tspan class="st4">,</tspan><tspan
+						class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.62em" class="st7"
+						v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">getId</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">用于</tspan><tspan class="st5">获</tspan><tspan class="st4">取</tspan><tspan class="st5">单</tspan><tspan
+						class="st4">个商品</tspan><tspan class="st4">id</tspan><tspan class="st4">的函数</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph
+							v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan
+						x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2" dy="1.62em" class="st7"
+						v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">idList</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象数</tspan><tspan class="st5">组</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan
+						class="st4">{</tspan><tspan class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123456</tspan><tspan
+						class="st4">},</tspan><tspan class="st4">...]</tspan><tspan class="st4">。</tspan></text>		</g>
+		<g id="shape6-365" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(509.603,-527.32)">
+			<title>流程.6</title>
+			<desc>1.2 setBuyNum: 计算购买数量。 Input orderStrArray,字符串订单的数组eg[str1, s...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.259842519685):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="702.435" width="141.74" height="89.2913"/>
+			<rect x="0" y="657.789" width="141.732" height="89.2913" class="st1"/>
+			<text x="2" y="665.19" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>1.2 setBuyNum:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st5">计</tspan><tspan class="st4">算</tspan><tspan class="st5">购买</tspan><tspan class="st4">数量</tspan><tspan
+						class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="11.34"/></v:tabList><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">orderStrArray</tspan><tspan class="st4">,</tspan><tspan class="st4">字符串</tspan><tspan
+						class="st5">订单</tspan><tspan class="st4">的数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">str</tspan><tspan
+						class="st4">1</tspan><tspan class="st4">, </tspan><tspan x="20" dy="1.229em" class="st4">str</tspan><tspan
+						class="st4">2</tspan><tspan class="st4">,</tspan><tspan class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan
+						x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">idList</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">只包含</tspan><tspan class="st4">id</tspan><tspan class="st4">的</tspan><tspan
+						class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象数</tspan><tspan class="st5">组</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan
+						class="st4">{</tspan><tspan class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">12345</tspan><tspan
+						class="st4">}</tspan><tspan class="st4">]<v:newlineChar/></tspan><tspan x="2" dy="1.649em" class="st7"
+						v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">getBuyNum</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">用于</tspan><tspan class="st5">获</tspan><tspan class="st4">取商品</tspan><tspan
+						class="st5">购买</tspan><tspan class="st4">数量的函数</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph
+							v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan
+						x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2" dy="1.62em" class="st7"
+						v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">idAndNumList</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象数</tspan><tspan
+						class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan
+						class="st4">[</tspan><tspan class="st4">{</tspan><tspan class="st4">id</tspan><tspan class="st4">:</tspan><tspan
+						class="st4">123456</tspan><tspan class="st4">, </tspan><tspan x="20" dy="1.229em" class="st4">num</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">3</tspan><tspan class="st4">},</tspan><tspan class="st4">...]</tspan><tspan
+						class="st4">。</tspan></text>		</g>
+		<g id="shape7-451" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(509.603,-268.658)">
+			<title>流程.7</title>
+			<desc>3.1 promotion_XXX(表示促销名每一个促销都有对应的处理函数): 判断当前订单是否满足指定促销如果满足则返回...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.7322834645669):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="682.592" width="141.74" height="128.976"/>
+			<rect x="0" y="618.104" width="141.732" height="128.976" class="st1"/>
+			<text x="2" y="625.96" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>3.1 promotion_XXX(表示促<tspan class="st8">销</tspan>名，每一个促<tspan class="st8">销</tspan>都有<tspan
+						class="st8">对</tspan><tspan x="2" dy="1.3em" class="st8">应</tspan>的<tspan class="st8">处</tspan>理函数):<v:newlineChar/><tspan
+						x="2" dy="1.634em" class="st4">       </tspan><tspan class="st4">判断当前</tspan><tspan class="st5">订单</tspan><tspan
+						class="st4">是否</tspan><tspan class="st5">满</tspan><tspan class="st4">足指定促</tspan><tspan class="st5">销</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">如果</tspan><tspan class="st5">满</tspan><tspan class="st4">足</tspan><tspan
+						class="st5">则</tspan><tspan class="st4">返</tspan><tspan x="2" dy="1.3em" class="st4">回促</tspan><tspan
+						class="st5">销详</tspan><tspan class="st4">情</tspan><tspan class="st4">，</tspan><tspan class="st4">否</tspan><tspan
+						class="st5">则</tspan><tspan class="st4">返回</tspan><tspan class="st4">null</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan
+						x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="11.34"/></v:tabList><tspan
+						x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">goodsDetailsList</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">，</tspan><tspan class="st4">js</tspan><tspan class="st5">对</tspan><tspan
+						class="st4">象数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan
+						class="st4">：</tspan><tspan class="st4">eg</tspan><tspan class="st4">：</tspan><tspan class="st4">[</tspan><tspan
+						class="st4">{</tspan><tspan class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123</tspan><tspan
+						class="st4">, </tspan><tspan x="20" dy="1.304em" class="st4">price</tspan><tspan class="st4">:</tspan><tspan
+						class="st4">5</tspan><tspan class="st4">.</tspan><tspan class="st4">6</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">name</tspan><tspan class="st4">: </tspan><tspan class="st4">黄</tspan><tspan class="st5">焖鸡</tspan><tspan
+						class="st4">, </tspan><tspan class="st4">num</tspan><tspan class="st4">:</tspan><tspan class="st4">3</tspan><tspan
+						class="st4">},</tspan><tspan class="st4">...]</tspan><tspan class="st4">。<v:newlineChar/></tspan><tspan
+						x="2" dy="1.646em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">discountItems</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">有</tspan><tspan class="st5">优</tspan><tspan class="st4">惠的商品</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">数</tspan><tspan class="st5">组</tspan><tspan class="st4">。<v:newlineChar/><v:paragraph
+							v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan
+						x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph v:indentFirst="-18"
+						v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2" dy="1.62em" class="st7"
+						v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">discount</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">描述促</tspan><tspan class="st5">销结</tspan><tspan class="st4">果的</tspan><tspan
+						class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">如果当前</tspan><tspan class="st5">订单</tspan><tspan x="20" dy="1.304em" class="st4">不</tspan><tspan
+						class="st5">满</tspan><tspan class="st4">足促</tspan><tspan class="st5">销</tspan><tspan class="st4">条件</tspan><tspan
+						class="st5">则</tspan><tspan class="st4">返回</tspan><tspan class="st4">null</tspan><tspan class="st4">。</tspan><tspan
+						class="st4">形如</tspan><tspan class="st4">：</tspan><tspan class="st4">{</tspan><tspan class="st4">type</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">”</tspan><tspan class="st5">满</tspan><tspan x="20" dy="1.225em"
+						class="st4">30</tspan><tspan class="st4">减</tspan><tspan class="st4">6</tspan><tspan class="st4">”</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">matchedItems</tspan><tspan class="st4">:[</tspan><tspan class="st4">{</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">price</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">.</tspan><tspan
+						class="st4">6</tspan><tspan class="st4">, </tspan><tspan class="st4">name</tspan><tspan class="st4">: </tspan><tspan
+						x="20" dy="1.275em" class="st4">黄</tspan><tspan class="st5">焖鸡</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">...</tspan><tspan class="st4">}</tspan><tspan class="st4">]</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">savedMoney</tspan><tspan class="st4">: </tspan><tspan class="st4">16</tspan><tspan class="st4">}</tspan></text>		</g>
+		<g id="shape8-592" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(262.989,-7.87096)">
+			<title>流程.8</title>
+			<desc>5.formatOrder: 获取订单总价。 Input goodsDetailsList包含商品详细信息和购买数量的js...</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(1.5748031496063):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929" v:verticalAlign="0"/>
+			<v:textRect cx="70.8661" cy="690.388" width="141.74" height="113.386"/>
+			<rect x="0" y="633.695" width="141.732" height="113.386" class="st1"/>
+			<text x="2" y="641.09" class="st3" v:langID="2052"><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="73.7"/></v:tabList>5.formatOrder:<v:newlineChar/><tspan x="2" dy="1.609em" class="st4">    </tspan><tspan
+						class="st5">获</tspan><tspan class="st4">取</tspan><tspan class="st5">订单总</tspan><tspan class="st4">价</tspan><tspan
+						class="st4">。<v:newlineChar/></tspan><tspan x="2" dy="1.558em" class="st6">Input</tspan>：<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+							v:pos="11.34"/></v:tabList><tspan x="2" dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">goodsDetailsList</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">包含商品</tspan><tspan class="st5">详细</tspan><tspan class="st4">信息和</tspan><tspan class="st5">购买</tspan><tspan
+						class="st4">数量的</tspan><tspan x="20" dy="1.304em" class="st4">js</tspan><tspan class="st5">对</tspan><tspan
+						class="st4">象数</tspan><tspan class="st5">组</tspan><tspan class="st4">，</tspan><tspan class="st4">eg</tspan><tspan
+						class="st4">：</tspan><tspan class="st4">[</tspan><tspan class="st4">{</tspan><tspan class="st4">id</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan class="st4">price</tspan><tspan
+						class="st4">:</tspan><tspan class="st4">5</tspan><tspan class="st4">.</tspan><tspan class="st4">6</tspan><tspan
+						class="st4">, </tspan><tspan class="st4">name</tspan><tspan class="st4">: </tspan><tspan class="st4">黄</tspan><tspan
+						x="20" dy="1.3em" class="st5">焖鸡</tspan><tspan class="st4">},</tspan><tspan class="st4">...]</tspan><tspan
+						class="st4">。<v:newlineChar/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList></tspan><tspan x="2"
+						dy="1.645em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">maxDiscount</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">描述最大</tspan><tspan class="st5">优</tspan><tspan class="st4">惠的</tspan><tspan
+						class="st4">js</tspan><tspan class="st5">对</tspan><tspan class="st4">象</tspan><tspan class="st4">，</tspan><tspan
+						class="st4">形如</tspan><tspan class="st4">：</tspan><tspan x="20" dy="1.304em" class="st4">{</tspan><tspan
+						class="st4">type</tspan><tspan class="st4">:</tspan><tspan class="st4">”</tspan><tspan class="st5">满</tspan><tspan
+						class="st4">30</tspan><tspan class="st4">减</tspan><tspan class="st4">6</tspan><tspan class="st4">”</tspan><tspan
+						class="st4">,</tspan><tspan class="st4">matchedItems</tspan><tspan class="st4">:[</tspan><tspan class="st4">{</tspan><tspan
+						class="st4">id</tspan><tspan class="st4">:</tspan><tspan class="st4">123</tspan><tspan class="st4">, </tspan><tspan
+						x="20" dy="1.3em" class="st4">price</tspan><tspan class="st4">:</tspan><tspan class="st4">5</tspan><tspan
+						class="st4">.</tspan><tspan class="st4">6</tspan><tspan class="st4">, </tspan><tspan class="st4">name</tspan><tspan
+						class="st4">: </tspan><tspan class="st4">黄</tspan><tspan class="st5">焖鸡</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">...</tspan><tspan class="st4">}</tspan><tspan class="st4">]</tspan><tspan class="st4">, </tspan><tspan
+						class="st4">savedMoney</tspan><tspan class="st4">: </tspan><tspan class="st4">16</tspan><tspan class="st4">}<v:newlineChar/><v:tabList><v:tabStop
+								v:pos="11.34"/></v:tabList></tspan><tspan x="2" dy="1.645em" class="st7" v:isBullet="true">·</tspan><tspan
+						class="st7"> </tspan><tspan class="st4">totalPrice</tspan><tspan class="st4">，</tspan><tspan class="st5">订单总</tspan><tspan
+						class="st4">价<v:newlineChar/><v:paragraph v:spAfter="2" v:bulletSpace="5.66929"/><v:tabList><v:tabStop
+								v:pos="73.7"/></v:tabList></tspan><tspan x="2" dy="1.562em" class="st6">Output</tspan>:<v:newlineChar/><v:paragraph
+						v:indentFirst="-18" v:indentLeft="18" v:spAfter="2" v:bullet="1" v:bulletSpace="5.66929"/><tspan x="2"
+						dy="1.62em" class="st7" v:isBullet="true">·</tspan><tspan class="st7"> </tspan><tspan class="st4">totalPrice</tspan><tspan
+						class="st4">，</tspan><tspan class="st4">格式化后的</tspan><tspan class="st5">订单</tspan><tspan class="st4">字符串</tspan></text>		</g>
+		<g id="shape9-701" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(7.87096,-289.918)">
+			<title>流程.9</title>
+			<desc>bestCharge()</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="进程编号" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="所有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="函数" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="开始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="结束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="2052" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="状态" v:prompt="" v:type="4" v:format=";未开始;进行中;已完成;已推迟;正在等待输入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="2052" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="5.66929"/>
+			<v:textRect cx="70.8661" cy="702.435" width="141.74" height="89.2913"/>
+			<rect x="0" y="657.789" width="141.732" height="89.2913" class="st1"/>
+			<text x="43.91" y="705.43" class="st9" v:langID="2052"><v:paragraph v:spAfter="2" v:horizAlign="1"
+						v:bulletSpace="5.66929"/><v:tabList><v:tabStop v:pos="73.7"/></v:tabList>bestCharge()</text>		</g>
+		<g id="shape10-705" v:mID="10" v:groupContext="shape" v:layerMember="1" transform="translate(149.603,-334.564)">
+			<title>动态连接线</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 455.11 L106.35 455.11" class="st10"/>
+		</g>
+		<g id="shape11-710" v:mID="11" v:groupContext="shape" v:layerMember="1" transform="translate(149.603,-334.564)">
+			<title>动态连接线.11</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 617.4 L106.35 617.4" class="st10"/>
+		</g>
+		<g id="shape12-715" v:mID="12" v:groupContext="shape" v:layerMember="1" transform="translate(149.603,-340.942)">
+			<title>动态连接线.12</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 753.46 L21.26 753.46 L21.26 754.88 L106.35 754.88" class="st10"/>
+		</g>
+		<g id="shape13-720" v:mID="13" v:groupContext="shape" v:layerMember="1" transform="translate(149.603,-334.564)">
+			<title>动态连接线.13</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 884.56 L106.35 884.56" class="st10"/>
+		</g>
+		<g id="shape14-725" v:mID="14" v:groupContext="shape" v:layerMember="1" transform="translate(149.603,-334.564)">
+			<title>动态连接线.14</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 1017.08 L106.35 1017.08" class="st10"/>
+		</g>
+		<g id="shape15-730" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(404.721,-626.532)">
+			<title>动态连接线.15</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 679.05 L97.84 679.05" class="st10"/>
+		</g>
+		<g id="shape16-735" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(404.721,-626.532)">
+			<title>动态连接线.16</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 747.08 L21.26 747.08 L21.26 801.65 L97.84 801.65" class="st10"/>
+		</g>
+		<g id="shape17-740" v:mID="17" v:groupContext="shape" v:layerMember="1" transform="translate(404.721,-326.06)">
+			<title>动态连接线.17</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(56):26"/>
+			</v:userDefs>
+			<path d="M0 739.99 L97.84 739.99" class="st10"/>
+		</g>
+	</g>
+</svg>
