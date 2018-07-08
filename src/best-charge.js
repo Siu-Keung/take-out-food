@@ -118,8 +118,6 @@ function loadDetails(idAndNumList, allItems){
     return resultList;
 }
 
-//***********************************************************************************************************************************************************************
-
 function getMaxDiscount(goodsDetailsList, allPromotions){
     let maxDiscount = null;
     for(let currentPromotion of allPromotions){
@@ -132,8 +130,22 @@ function getMaxDiscount(goodsDetailsList, allPromotions){
 
 //***********************************************************************************************************************************************************************
 
+function getTotalPrice(goodsDetailsList, maxDiscount){
+    let totalPrice = 0;
+    for(let goodsDetails of goodsDetailsList){
+        totalPrice += goodsDetails.price * goodsDetails.num;
+    }
+    if(maxDiscount !== null) {
+        totalPrice -= maxDiscount.savedMoney;
+    }
+    return totalPrice;
+}
+
+//***********************************************************************************************************************************************************************
+
 module.exports = {
     generateOrder,
     loadDetails,
-    getMaxDiscount
+    getMaxDiscount,
+    getTotalPrice
 }
