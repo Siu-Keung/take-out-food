@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7617f270-48f4-4abe-9965-e2e63c059af2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+    <list default="true" id="7617f270-48f4-4abe-9965-e2e63c059af2" name="Default" comment="完成了loadDetails函数的编写">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/best-charge-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/best-charge-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/getMaxDiscount-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/getMaxDiscount-spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/getTotalPrice-spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/spec/getTotalPrice-spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/best-charge.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/best-charge.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +15,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="best-charge.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/best-charge.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="103">
+              <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="generateOrder-spec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/generateOrder-spec.js">
+      <file leaf-file-name="best-charge-spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="formatOrder-spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/formatOrder-spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -52,8 +61,14 @@
       <list>
         <option value="$PROJECT_DIR$/spec/best-charge-spec.js" />
         <option value="$PROJECT_DIR$/.editorconfig" />
-        <option value="$PROJECT_DIR$/src/best-charge.js" />
+        <option value="$PROJECT_DIR$/src/items.js" />
         <option value="$PROJECT_DIR$/spec/generateOrder-spec.js" />
+        <option value="$PROJECT_DIR$/spec/loadDetails-spec.js" />
+        <option value="$PROJECT_DIR$/src/promotions.js" />
+        <option value="$PROJECT_DIR$/spec/getMaxDiscount-spec.js" />
+        <option value="$PROJECT_DIR$/spec/getTotalPrice-spec.js" />
+        <option value="$PROJECT_DIR$/src/best-charge.js" />
+        <option value="$PROJECT_DIR$/spec/formatOrder-spec.js" />
       </list>
     </option>
   </component>
@@ -78,8 +93,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
+    <option name="x" value="880" />
+    <option name="y" value="16" />
+    <option name="width" value="1146" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -220,7 +236,7 @@
       <workItem from="1531053109070" duration="489000" />
       <workItem from="1531053644080" duration="160000" />
       <workItem from="1531053814830" duration="1101000" />
-      <workItem from="1531057086707" duration="1377000" />
+      <workItem from="1531057086707" duration="7119000" />
     </task>
     <task id="LOCAL-00001" summary="更新tasking图">
       <created>1531056822642</created>
@@ -229,17 +245,46 @@
       <option name="project" value="LOCAL" />
       <updated>1531056822642</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成了generateOrder函数的编写">
+      <created>1531058504999</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1531058504999</updated>
+    </task>
+    <task id="LOCAL-00003" summary="完成了loadDetails函数的编写">
+      <created>1531059737092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531059737092</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成了getMaxDiscount函数的编写">
+      <created>1531062153804</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531062153804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成了getTotalPrice函数的编写">
+      <created>1531063048741</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1531063048741</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5805000" />
+    <option name="totallyTimeSpent" value="11547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -247,11 +292,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" x="0" y="23" width="1920" height="1017" id="Run" order="2" type="WINDOWED" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -275,7 +320,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新tasking图" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新tasking图" />
+    <MESSAGE value="完成了generateOrder函数的编写" />
+    <MESSAGE value="完成了loadDetails函数的编写" />
+    <MESSAGE value="完成了getMaxDiscount函数的编写" />
+    <MESSAGE value="完成了getTotalPrice函数的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了getTotalPrice函数的编写" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/best-charge.js">
@@ -350,27 +399,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run-test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="38" lean-forward="true" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -381,24 +409,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/items.js">
+    <entry file="file://$PROJECT_DIR$/run-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="8" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="286">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/best-charge.js">
+    <entry file="file://$PROJECT_DIR$/src/promotions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="242">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/items.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/getMaxDiscount-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="199" selection-start-line="9" selection-start-column="199" selection-end-line="9" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/loadDetails-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/getTotalPrice-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="200" selection-start-line="8" selection-start-column="200" selection-end-line="8" selection-end-column="200" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/generateOrder-spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="110">
+          <caret line="5" column="88" lean-forward="true" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/best-charge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/best-charge-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/formatOrder-spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
         </state>
       </provider>
     </entry>

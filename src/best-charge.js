@@ -39,6 +39,13 @@ const promotionHandlers = {
             discountResult.type = '指定菜品半价';
             discountResult.savedMoney = savedMoney;
             discountResult.matchedItems = matchedList;
+            let spec = discountResult.type + '(';
+            for(let matchedItem of matchedList){
+                spec += matchedItem.name + '，';
+            }
+            spec = spec.substring(0, spec.length - 1);
+            spec += `)，省${savedMoney}元`;
+            discountResult.spec = spec;
         }
         return discountResult;
     }
@@ -128,8 +135,6 @@ function getMaxDiscount(goodsDetailsList, allPromotions){
     return maxDiscount;
 }
 
-//***********************************************************************************************************************************************************************
-
 function getTotalPrice(goodsDetailsList, maxDiscount){
     let totalPrice = 0;
     for(let goodsDetails of goodsDetailsList){
@@ -141,11 +146,35 @@ function getTotalPrice(goodsDetailsList, maxDiscount){
     return totalPrice;
 }
 
+function formatOrder(goodsDetailsList, maxDiscount, totalPrice){
+    let resultStr = '============= 订餐明细 =============';
+    for(let goodsDetails of goodsDetailsList){
+        resultStr += `\n${goodsDetails.name} x ${goodsDetails.num} = ${goodsDetails.price * goodsDetails.num}元`;
+    }
+    if(maxDiscount !== null){
+        resultStr += '\n-----------------------------------';
+        resultStr += '\n使用优惠:\n';
+        resultStr += maxDiscount.spec;
+    }
+    resultStr += '\n-----------------------------------';
+    if(maxDiscount !== null){
+        ;
+    }
+    resultStr += `\n总计：${totalPrice}元`;
+    resultStr += '\n===================================';
+    return resultStr;
+}
+
+//***********************************************************************************************************************************************************************
+
+
+
 //***********************************************************************************************************************************************************************
 
 module.exports = {
     generateOrder,
     loadDetails,
     getMaxDiscount,
-    getTotalPrice
+    getTotalPrice,
+    formatOrder
 }
