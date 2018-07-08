@@ -1,5 +1,8 @@
 'use strict';
 
+const items = require('../src/items');
+const promotions = require('../src/promotions');
+
 const promotionHandlers = {
     '满30减6元' : (goodsDetailsList, discountItems) => {
         let discountResult = null;
@@ -19,6 +22,8 @@ const promotionHandlers = {
             discountResult.savedMoney = savedMoney;
             discountResult.type = '满30减6元';
             discountResult.matchedItems = matchedList;
+            let spec = `${discountResult.type}，省${savedMoney}元`;
+            discountResult.spec = spec;
         }
         return discountResult;
     },
@@ -60,11 +65,6 @@ function isIdInArray(id, idArray){
     }
     return false;
 }
-
-function bestCharge(selectedItems) {
-  return /*TODO*/;
-}
-
 
 function getUniqueIdList(goodsIdArray, getId) {
   let uniqueList = [];
@@ -129,7 +129,8 @@ function getMaxDiscount(goodsDetailsList, allPromotions){
     let maxDiscount = null;
     for(let currentPromotion of allPromotions){
         let discount = promotionHandlers[currentPromotion.type](goodsDetailsList, currentPromotion.items);
-        if(maxDiscount === null || maxDiscount.savedMoney < discount.savedMoney)
+        // console.error('************************************' + `当前优惠：${currentPromotion.type}, 是否满足：${discount !== null}`)
+        if(maxDiscount === null || (discount !== null && discount.savedMoney > maxDiscount.savedMoney))
             maxDiscount = discount;
     }
     return maxDiscount;
@@ -165,16 +166,23 @@ function formatOrder(goodsDetailsList, maxDiscount, totalPrice){
     return resultStr;
 }
 
-//***********************************************************************************************************************************************************************
+function bestCharge(selectedItems) {
+    let idAndNumList = generateOrder(selectedItems);
+    let goodsDetailsList = loadDetails(idAndNumList, items.loadAllIterms());
+    let maxDiscount = getMaxDiscount(goodsDetailsList, promotions.loadPromotions());
+    let totalPrice = getTotalPrice(goodsDetailsList, maxDiscount);
+    let orderStr = formatOrder(goodsDetailsList, maxDiscount, totalPrice);
+    console.log(orderStr);
+    return orderStr;
+}
 
 
-
-//***********************************************************************************************************************************************************************
 
 module.exports = {
     generateOrder,
     loadDetails,
     getMaxDiscount,
     getTotalPrice,
-    formatOrder
+    formatOrder,
+    bestCharge
 }

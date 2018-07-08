@@ -2,7 +2,6 @@ const bestCharge = require('../src/best-charge');
 const items = require('../src/items');
 const promotions = require('../src/promotions');
 
-
 describe('getMaxDiscount()', function () {
 
     it('应当输出订单最优促销的详情', function () {
