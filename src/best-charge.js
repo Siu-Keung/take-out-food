@@ -35,7 +35,7 @@ function generateOrder(orderStrArray){
     let getId = (idAndNumStr) => {
         let pattern = /(.*)x(.*)/;
         let group = pattern.exec(idAndNumStr);
-        return group[1];
+        return group[1].trim();
     };
     let goodsList = getUniqueIdList(orderStrArray, getId);
     let getNum = (idAndNumStr) => {
@@ -47,7 +47,25 @@ function generateOrder(orderStrArray){
     return goodsList;
 }
 
+function findDetailsById(id, allItems){
+    for(let item of allItems){
+        if(item.id === id)
+            return item;
+    }
+}
+
+function loadDetails(idAndNumList, allItems){
+    let resultList = JSON.parse(JSON.stringify(idAndNumList));
+    for(let item of resultList){
+        let details = findDetailsById(item.id, allItems);
+        item.name = details.name;
+        item.price = details.price;
+    }
+    return resultList;
+}
+
 
 module.exports = {
-    generateOrder
+    generateOrder,
+    loadDetails
 }

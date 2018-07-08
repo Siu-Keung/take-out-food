@@ -1,4 +1,4 @@
-function loadAllItems() {
+function loadAllIterms() {
   return [{
     id: 'ITEM0001',
     name: '黄焖鸡',
@@ -17,3 +17,7 @@ function loadAllItems() {
     price: 2.00
   }];
 }
+
+module.exports = {
+    loadAllIterms
+};
